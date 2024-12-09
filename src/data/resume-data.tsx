@@ -9,16 +9,16 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
+  name: "Nahom Kasa",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  location: "4kilo, Addis Ababa, Ethiopia",
+  locationLink: "https://www.google.com/maps/place/4kilo",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Detail-oriented MERN Stack developer $ JavaScript Developer",
   summary: (
     <>
       Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
+      React and Next.js applications, scalable Node.js services, and real-time collaboration
       systems. Experienced in technical architecture design and remote team
       leadership.
     </>
@@ -196,10 +196,10 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Tomato.",
+      techStack: ["Express", "MongoDB", "React.js", "Node.js"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "food deliver system for local cafe called TOMATO.",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
@@ -207,7 +207,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Consultly",
+      title: "Focbook",
       techStack: [
         "TypeScript",
         "Next.js",
